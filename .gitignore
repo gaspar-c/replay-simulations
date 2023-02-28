@@ -1,0 +1,10 @@
+*.idea
+*/__pycache__/*
+.spyproject/*
+*.npy
+*.npz
+*.png
+*.gif
+*.log
+outputs/*
+

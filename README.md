@@ -36,7 +36,7 @@ A *test* is a simulation of a given spiking network to determine whether the rep
 - To balance the activity, the network runs for 10 seconds with an active STDP mechanism in the I-to-E synapses;
 - After the balancing, STDP is turned off and the first assembly in the sequence is stimulated 5 times, in intervals of 1 second. After each stimulation, we record whether the replay succeeded or failed.
 
-Each of them will produce a folder in the `outputs/` directory with the test results, containing the following files:
+Each script will produce a folder in the `outputs/` directory with the test results, containing the following files:
 - `0_group_log.log`, a log file of the entire test group;
 - `0_group_results.txt`, a file with the summarised test results for each stimulation of each network in the test group;
 - `#.log`, the log file for test #;

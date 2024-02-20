@@ -1,6 +1,6 @@
 from brian2 import *
-from imported_code.detect_peaks import detect_peaks
-from my_code.aux_functions import calc_rate_monitor, check_brian_monitor,\
+from code_files.detect_peaks import detect_peaks
+from code_files.aux_functions import calc_rate_monitor, check_brian_monitor,\
     calc_network_frequency, trim_brian_monitor, calc_unit_rates, \
     calc_isi_cv, pprint
 import numpy as np

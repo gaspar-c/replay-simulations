@@ -1,7 +1,7 @@
 import os
 import time
-from my_code.run_tests import run_test_group
-from my_code.plot_group_results import group_plot
+from code_files.run_tests import run_test_group
+from code_files.plot_group_results import group_plot
 
 
 if __name__ == '__main__':

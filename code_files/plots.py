@@ -1,7 +1,7 @@
 from brian2 import *
 from matplotlib import colors
 from matplotlib import gridspec
-from my_code.tests import Stimulus
+from code_files.tests import Stimulus
 
 
 def color_gradient(color_i, color_f, n):

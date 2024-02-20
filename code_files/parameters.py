@@ -1,5 +1,5 @@
 from brian2 import *
-from my_code.aux_functions import pprint
+from code_files.aux_functions import pprint
 
 
 class Parameter:

@@ -1,8 +1,8 @@
 from brian2 import *
 import numpy as np
 import scipy.stats
-from my_code.aux_functions import ConnectivityMatrix, pprint
-from my_code.parameters import Parameter
+from code_files.aux_functions import ConnectivityMatrix, pprint
+from code_files.parameters import Parameter
 
 
 def build_network(net_params, logfile=None):

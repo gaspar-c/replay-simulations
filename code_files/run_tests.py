@@ -4,8 +4,8 @@ import multiprocessing
 import time
 import random
 import matplotlib.pyplot as plt
-from my_code import network as net, parameters as param, tests, plots
-from my_code.aux_functions import get_logger, pprint, s_to_hh_mm_ss
+from code_files import network as net, parameters as param, tests, plots
+from code_files.aux_functions import get_logger, pprint, s_to_hh_mm_ss
 
 
 def run_test_group(settings, param_arrays):

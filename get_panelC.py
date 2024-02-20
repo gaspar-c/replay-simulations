@@ -1,7 +1,7 @@
 import os
 import time
-from my_code.run_tests import run_test_group
-from my_code.plot_group_results import group_plot
+from code_files.run_tests import run_test_group
+from code_files.plot_group_results import group_plot
 
 
 if __name__ == '__main__':
@@ -16,8 +16,8 @@ if __name__ == '__main__':
 
     # network parameters
     param_arrays = {
-        'n_p': [50000],
-        'n_b': [12500],
+        'n_p': [100000],
+        'n_b': [25000],
         'conn_seed': [1] * 11 * 11 +
                      [2] * 11 * 11 +
                      [3] * 11 * 11 +
@@ -45,5 +45,5 @@ if __name__ == '__main__':
     group_plot(group_path,
                'p_pp', 'n_p_asb',
                r'Connectivity $c$ (\%)', r'Pattern Size $M$',
-               title_=r'Network Size $N = $ %s' % ('{:,}'.format(int(50000))),
+               title_=r'Network Size $N = $ %s' % ('{:,}'.format(int(100000))),
                scale_x=100, fit_inv=True)

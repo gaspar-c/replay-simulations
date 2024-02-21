@@ -19,7 +19,7 @@ conda config --add channels conda-forge
 ````
 
 Run Scripts:
-- `get_test.py`, runs a small and fast group of test, to check that everything runs without errors
+- `get_test.py`, runs a small and fast group of tests, to check that everything runs without errors
 - `get_panelB.py`, generates **Fig. 4B**
 - `get_panelC.py`, generates **Fig. 4C**<sup>(*)</sup>
 - `get_panelD.py`, generates **Fig. 4D**
